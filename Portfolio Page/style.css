@@ -1,0 +1,102 @@
+* {
+    
+}
+
+h1 {
+    display: block;
+    color: rgb(250, 250, 250);
+    margin-left: 10px;
+}
+
+header {
+    display: inline-flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    z-index: 100;
+    margin-top: -20px;
+    margin-left: -10px;
+    background-color: darkolivegreen;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+nav {
+    /*margin-right: 50px;*/
+}
+
+a {
+    text-decoration: underline;
+    margin-right: 20px;
+    color: rgb(250, 250, 250);
+}
+
+main {
+    position: relative;
+    top: 151px;
+    
+}
+
+.FlexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.structure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ProjectImage {
+    width: 33%px;
+    display: none;
+}
+
+#Project1 {
+    width: 33%;
+    text-align: center;
+}
+
+#Project2 {
+    width: 33%;
+    text-align: center;
+}
+
+
+#Project3 {
+    width: 33%;
+    text-align: center;
+}
+
+#logoArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+#AboutMe {
+    display: block;
+    justify-content: space-between;
+}
+
+#TextAboutMe {
+    width: 100%;
+}
+
+#Education {
+    width: 100%;
+}
+
+.Me {
+    width: 50%;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
